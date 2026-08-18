@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: Bunny;
+            src: url('/fontexternal/Bunny.truetype.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de formats()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat(Apple Advanced Typography)
+            -svg
+            */
+        }
+        body{
+            font-family: 'Bunny';
+        }
+
+        h1{
+            font-family: 'Bunny';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex facere rem suscipit provident adipisci? Aspernatur delectus atque rerum aliquam natus alias facere enim, quibusdam nulla hic perspiciatis tempore! Voluptatum, saepe!</p>
+</body>
+</html>
